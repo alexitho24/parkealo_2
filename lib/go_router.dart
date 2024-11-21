@@ -1,9 +1,8 @@
 import 'package:go_router/go_router.dart';
+import 'package:ticketya/details_screen.dart';
+import 'package:ticketya/home_screen.dart';
 
-import 'details_screen.dart';
-import 'home_screen.dart';
-
-final GoRouter router = GoRouter(
+final GoRouter _router = GoRouter(
   routes: <RouteBase>[
     GoRoute(
       path: '/',
